@@ -1,0 +1,26 @@
+{
+  "name": "clawd-desktop",
+  "version": "1.0.0",
+  "description": "A pixel crab that lives above your dock and reacts to your Claude Code sessions — including the permission prompt you didn't notice.",
+  "main": "src/main.js",
+  "private": true,
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude",
+    "desktop-pet",
+    "electron",
+    "macos",
+    "hooks"
+  ],
+  "scripts": {
+    "start": "electron .",
+    "install-hooks": "node scripts/install-hooks.js",
+    "uninstall-hooks": "node scripts/uninstall-hooks.js",
+    "state": "node scripts/show-state.js",
+    "preview": "node scripts/preview.js"
+  },
+  "devDependencies": {
+    "electron": "^32.2.7"
+  }
+}
